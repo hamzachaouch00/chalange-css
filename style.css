@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1%;
+}
+#span-nav{
+    color: white;
+    display: flex;
+   gap: 20px;
+}
+#nav-btn{
+display: flex;
+gap: 20px;
+}
+.btn-orange{
+    color: black;
+    background-color: orange;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px 6px 6px 6px;
+}
+.btn-white{
+    color: black;
+    background-color: white;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   font-size: 16px;
+   border-radius: 6px 6px 6px 6px;
+}
+section{
+   
+    padding: 1%;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.par1{
+  width: 400px;
+  margin: 2%;
+}
+.card{
+    border-radius: 25px 25px 25px 25px;
+    width: 400px;
+}
+img{
+    width:200px;
+    border-radius: 25px;
+    height: 200px;
+}
+.card-container{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+   
+
+.section3{
+    width: 100%;
+  padding: 1%;
+    background-color: black;
+    color: white;
+    
+
+}
+.btn-bas{
+    display: flex;
+    gap: 10px;
+    padding: 1%;
+   justify-content: center;
+   align-items: center;
+}
+
+.par3{
+text-align: center;
+}
+
+
+footer{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    color:black;
+    padding: 1%;
+}
